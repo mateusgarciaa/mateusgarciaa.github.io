@@ -4,40 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-        body{
-            background-color: rgb(225, 224, 224);
-        }
-            
-        
-        #minhaFoto{
-            border-radius: 50% 10px;
-            width: 250px;
-            height: 300px;
-            text-align: center;
-            border: 10px solid black;
-            box-shadow: 5px 5px 15px ;
-            
-            
-        }
-        .header1{
-            text-align: center;
-            
-        }
-        .header2{
-            display: flex;
-            text-align: center;
-            justify-content: space-around;
-            
-        }
-        #linksPessoais{
-            color: black;
-            font-size: 20px;
-            
-        }
-    </style>
-
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
@@ -49,36 +16,43 @@
         <hr>
         </div>
         <div class="header2">
-            <h4 id="linksPessoais"><a href="">Sobre Mim</a></h4>
-            <h4 id="linksPessoais"><a href="">Habilidades</a></h4>
-            <h4 id="linksPessoais"><a href="">Curiosidades</a></h4>
+            <h4 id="linksPessoais"><a href="#sobreMim">Sobre Mim</a></h4>
+            <h4 id="linksPessoais"><a href="#habilidades">Habilidades</a></h4>
+            <h4 id="linksPessoais"><a href="#curiosidades">Curiosidades</a></h4>
         </div>
         <hr>
     </header>
-    <div class="sobreMim">
-        <h1>Sobre Mim :</h1>
-        <p1 id="descrição">Olá, me chamo Mateus, sou brasileiro nascido em Minas Gerais mais espécicamente na cidade de Governador Valadares e tenho 23 anos de idade</p1>
+    <div class="container1">
+        <div class="sobreMim">
+            <h1 class="fonteSubTitulo">Sobre Mim </h1>
+            <p1 id="descrição">Olá! Meu nome é Mateus e eu sou brasileiro, nascido na bela cidade de Governador Valadares, localizada no estado de Minas Gerais. Com 23 anos de idade, tenho muitos sonhos e objetivos a serem alcançados e acredito que tudo é possível com dedicação e esforço.
+                Agora, com 23 anos, sinto-me animado com o futuro que se aproxima. Estou trabalhando duro para realizar meus sonhos e alcançar meus objetivos, sempre buscando aprender mais e evoluir. Sei que o caminho será longo e cheio de desafios, mas estou confiante e preparado para enfrentá-los.
+
+Enfim, essa é a minha história e espero ter compartilhado um pouco sobre mim com você. Obrigado por ler!
+            </p1>
+    
+        </div>
+        <div class="habilidades">
+            <h1 class="fonteSubTitulo">Habilidades </h1>
+            <p1 id="listaHabilidades">
+                <h1 id="loading">LOADING ...</h1>
+            </p1>
+        </div>
+        <div class="curiosidades">
+            <h1 class="fonteSubTitulo">Curiosidades </h1>
+            <ul class="listaDeCuriosidades">
+                <li>Nasci no mesmo dia da minha mãe :]</li>
+                <li>Tenho uma cachorrinha chamada Paçoca</li>
+                <li>Ja fui mestre no lolzinho</li>
+                <li>E me apaixonei por programação a primeira vista</li>
+                <li>Gosto demais deles : <a href="https://jovemnerd.com.br/">Jovem Nerd</a></li>
+            </ul>
+        </div>
+        <hr>
 
     </div>
-    <div class="habilidades">
-        <h1>Habilidades :</h1>
-        <p1 id="listaHabilidades">
-            <h1 id="loading">LOADING ...</h1>
-        </p1>
-    </div>
-    <div class="curiosidades">
-        <h1>Curiosidades :</h1>
-        <ul>
-            <li>Nasci no mesmo dia da minha mãe :]</li>
-            <li>Tenho uma cachorrinha chamada Paçoca</li>
-            <li>Ja fui mestre no lolzinho</li>
-            <li>E me apaixonei por programação a primeira vista</li>
-            <li>Gosto demais deles : <a href="https://jovemnerd.com.br/">Jovem Nerd</a></li>
-        </ul>
-    </div>
-    <hr>
     <footer>
-        <h1><a href="header1">Voltar ao Topo</a></h1>
+        <h1><a href="#header1">Voltar ao Topo</a></h1>
     </footer>
     
 </body>
