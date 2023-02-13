@@ -1,7 +1,13 @@
 body{
-    background-color: rgb(225, 224, 224);
+    overflow-x: hidden;
 }
-    
+ 
+.meuNome{
+    font-size: 50px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+}
 
 #minhaFoto{
     border-radius: 50% 10px;
@@ -22,7 +28,7 @@ body{
     
 }
 #linksPessoais{
-    font-size: 20px;
+    font-size: 30px;
     
 }
 a:link {
@@ -43,18 +49,37 @@ a:hover{
     flex-direction: column;
     justify-content: space-between;
     
-    height: 1500px;
+    height: 2000px;
 }
 .fonteSubTitulo {
     font-family: sans-serif;
     text-align: center;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 #descrição{
-    font-size: 30px;
+    display: flex;
+    font-size: 30px; 
+    text-align: center;
 }
 .listaDeCuriosidades{
-    justify-content: space-between;
     font-size: 30px;
-margin-top: 200px;}
+    text-align: center;
+    margin-bottom: 150px;
+}
 
-
+#loading {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.ancora{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
