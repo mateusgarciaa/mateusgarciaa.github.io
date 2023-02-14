@@ -86,9 +86,11 @@ a:hover{
     padding: 50px 0;
     width: 420px;
     font-size: 30px;
-    border-radius: 8px;
+    border-radius: 20px;
     flex-direction: column;
     align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 }
 .progressCircle{
     position: relative;
@@ -126,4 +128,57 @@ a:hover{
     font-weight: 500;
     color: #5b70f9;
 
+}
+.circuloHabillidade2{
+    display: flex;
+    background-color: rgb(58, 56, 56);
+    padding: 50px 0;
+    width: 420px;
+    font-size: 30px;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progressCircle2{
+    position: relative;
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    background-color: #f0ff;
+    background: conic-gradient(#d36934 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.progressCircle2::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff
+
+}
+.progressValor2{
+    position: relative;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #d36934;
+    
+}
+.texto2{
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #d36934;
+
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-around;
 }
