@@ -8,6 +8,14 @@ body{
     font-family: sans-serif;
     letter-spacing: 3px;
     margin-bottom: 100px;
+    border: 2px solid black;
+    width: 800px;
+    margin-left: 300px;
+    background-color: rgb(58, 56, 56);
+    border-radius: 8px;
+    font-style: oblique;
+    color: #ededed;
+    letter-spacing: 3px;
 }
 
 #minhaFoto{
@@ -15,7 +23,7 @@ body{
     width: 250px;
     height: 300px;
     text-align: center;
-    border: 10px solid black;
+    border: 10px solid rgb(58, 56, 56);
     box-shadow: 5px 5px 15px ;
 }
 .header1{
@@ -29,16 +37,26 @@ body{
     
 }
 #linksPessoais{
-    font-size: 30px;
+    font-size: 15px;
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(58, 56, 56);
+
     
 }
 a:link {
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     text-decoration: none;
 }
 a:visited{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 a:hover{
     text-decoration: underline;
@@ -110,6 +128,8 @@ a:hover{
     text-align: center;
     margin-top: 250px;
     margin-bottom: 50px;
+    
+
 }
 .circuloHabillidade{
     display: flex;
@@ -221,4 +241,14 @@ a:hover{
      min-height: 500px;
      justify-content: center;
      align-items: center;
+}
+.ancora{
+    background-color: rgb(58, 56, 56);
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
 }
