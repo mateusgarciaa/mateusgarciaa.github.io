@@ -52,6 +52,8 @@ a:hover{
     
     height: 2000px;
 }
+
+
 .fonteSubTitulo {
     font-family: sans-serif;
     text-align: center;
@@ -61,23 +63,52 @@ a:hover{
     text-transform: uppercase;
     border: 2px solid black;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 400px;
+    height: 150px;
+    background: rgb(58, 56, 56);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 480px;
+    color: #ffffff;
+    font-style: oblique;
     
 }
 #descrição{
     display: flex;
-    font-size: 30px; 
+    font-size: 25px; 
     text-align: center;
+    color: #ffffff;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+
 }
 .listaDeCuriosidades{
     font-size: 30px;
-    text-align: center;
     margin-bottom: 150px;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-family: sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(58, 56, 56);
+    color: #ededed;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
 }
 
-.ancora{
+.foot{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 250px;
     margin-bottom: 50px;
 }
 .circuloHabillidade{
@@ -98,7 +129,7 @@ a:hover{
     width:250px;
     border-radius: 50%;
     background-color: #f0ff;
-    background: conic-gradient(#5b70f9 3.6deg, #ededed 0deg);
+    background: conic-gradient(#5b70f9 3.6deg, #ededed 300deg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,7 +177,7 @@ a:hover{
     width:250px;
     border-radius: 50%;
     background-color: #f0ff;
-    background: conic-gradient(#d36934 3.6deg, #ededed 0deg);
+    background: conic-gradient(#d36934 3.6deg, #ededed 30deg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,4 +212,13 @@ a:hover{
 .habilidades {
     display: flex;
     justify-content: space-around;
+}
+.sobreMim2{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: rgb(58, 56, 56);
+     min-height: 500px;
+     justify-content: center;
+     align-items: center;
 }
