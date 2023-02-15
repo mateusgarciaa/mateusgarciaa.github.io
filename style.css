@@ -1,16 +1,35 @@
 body{
     overflow-x: hidden;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12%;
     
 }
  
+.nomeTopo{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    background-color:  rgb(58, 56, 56);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    
+    
+}
+
 .meuNome{
-    font-size: 50px;
+    font-size: 40px;
     font-family: sans-serif;
     letter-spacing: 3px;
-    margin-bottom: 100px;
-    border: 2px solid black;
+    margin-bottom: 5%px;
     width: 800px;
-    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: rgb(58, 56, 56);
     border-radius: 8px;
     font-style: oblique;
@@ -72,6 +91,22 @@ a:hover{
 }
 
 
+.posSubtitulo{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 8px;
+    background-color: rgb(58, 56, 56);
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
 .fonteSubTitulo {
     font-family: sans-serif;
     text-align: center;
@@ -94,6 +129,8 @@ a:hover{
     font-style: oblique;
     
 }
+
+
 #descrição{
     display: flex;
     font-size: 25px; 
